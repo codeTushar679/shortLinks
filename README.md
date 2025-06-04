@@ -1,7 +1,7 @@
 
 #  Free Link Shortener
 
-Link Shortener is a simple and efficient URL shortener application built using Next.js and MongoDB. It allows users to generate clean, shortened versions of long URLs and redirect them seamlessly. It's a great tool for sharing compact links on social media, emails, or anywhere a long URL feels cluttered.
+Link Shortener is a simple and efficient URL shortener application built using Next.js and MongoDB. It allows users to generate clean, shortened versions of long URLs. It's a great tool for sharing compact links on social media, emails, or anywhere a long URL feels cluttered.
 
 
 
