@@ -32,7 +32,7 @@ https://short-links-seven.vercel.app/
 
 ## Tech Stack
 
-Full Stack Next.js with Typescript and Tailwind CSS
+Full Stack Next.js with Typescript, MongoDB, Tailwind CSS
 
 
 
