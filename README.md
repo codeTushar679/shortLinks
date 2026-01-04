@@ -10,11 +10,9 @@ Link Shortener is a simple and efficient URL shortener application built using N
 - Shorten any long URL to a compact version
 - Auto-generate a unique short code
 - Responsive design for computer, mobile
-- Stores original and short URLs in MongoDB
-- Server-side API routes handle shortening logic and redirection.
+- Stores original and short URLs in Mongodb Atlas
 - After press "Generate Short Link" button, you will see your short link below "Generate Short Link" button.
 - After generate short link copy that link and paste in new tab.
-- Hover effect on text inputs.
 - You can customize your own link or you can ignore customize input to generate a random link.
 - You can not use same customize name in customize input again after generated, if you try then it shows alert.
 - These all links are going to save in my Mongo Atlas DataBase.
@@ -23,30 +21,16 @@ Link Shortener is a simple and efficient URL shortener application built using N
 
 ## Demo
 
-Here's a live project link of Vercel:
+Project deployed in Vercel, here's live project link:
 
 https://short-links-seven.vercel.app/
 
 
 ## Tech Stack
 
-Full Stack Next.js with Typescript, MongoDB, Tailwind CSS
+Next.js (JavaScript), MongoDB
+Dependencies-> Mongoose, nanoid
 
-
-
-## Screenshots
-
-If you want to see Screenshots of the project then here's my LinkedIn post link:
-
-https://www.linkedin.com/posts/tushar-rana-5a6787273_linkshortener-nextjs-tailwind-activity-7308074537097613312-wK8O?utm_source=share&utm_medium=member_desktop&rcm=ACoAAELbPo4BV1FhoHLivrkBoZ7wzNl_gS5vG9w
-
-
-
-## Installation
-
-Install my-project in your code editor:
-
-git clone https://github.com/codeTushar679/shortLinks.git
 
 
 
@@ -60,8 +44,15 @@ git clone https://github.com/codeTushar679/shortLinks.git
 
 
 
+## Installation
+
+Install the project:
+
+```bash
+  git clone https://github.com/codeTushar679/jobeezy
+```
+    
 ## Author
 
-Here's my LinkedIn profile link:
-
-https://www.linkedin.com/in/tushar-rana-5a6787273/
+- [LinkedIn](https://www.linkedin.com/in/tushar-rana-5a6787273/)
+- [Docker](https://hub.docker.com/repositories/tushar950)
