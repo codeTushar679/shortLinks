@@ -18,7 +18,6 @@ Link Shortener is a simple and efficient URL shortener application built using N
 - You can customize your own link or you can ignore customize input to generate a random link.
 - You can not use same customize name in customize input again after generated, if you try then it shows alert.
 - These all links are going to save in my Mongo Atlas DataBase.
-- ISSUE -> After open short link in new tab, you will see "localhost refused to connect.", so you have to copy my github code and run on your own localhost!
 
 
 
@@ -27,7 +26,6 @@ Link Shortener is a simple and efficient URL shortener application built using N
 Here's a live project link of Vercel:
 
 https://short-links-seven.vercel.app/
-
 
 
 ## Tech Stack
