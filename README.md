@@ -29,6 +29,7 @@ https://short-links-seven.vercel.app/
 ## Tech Stack
 
 Next.js (JavaScript), MongoDB
+
 Dependencies-> Mongoose, nanoid
 
 
@@ -49,7 +50,7 @@ Dependencies-> Mongoose, nanoid
 Install the project:
 
 ```bash
-  git clone https://github.com/codeTushar679/jobeezy
+  git clone https://github.com/codeTushar679/shortLinks
 ```
     
 ## Author
