@@ -54,6 +54,7 @@ export default function Home() {
   }
 
   return (
+    <div>
     <div className="flex flex-col items-center justify-center h-100 w-110 bg-[#FFB433] rounded-lg drop-shadow-lg">
       <h1 className="font-bold text-4xl text-[#854836] mb-6">
         Free Link Shortener
@@ -75,7 +76,7 @@ export default function Home() {
         />
         <button
           onClick={generateShortLink}
-          className="bg-[#399918] p-1 rounded-lg ml-2 h-9 shadow-2xs text-[#FEFAE0] drop-shadow-sm"
+          className="bg-[#399918] p-1 hover:cursor-pointer rounded-lg ml-2 h-9 shadow-2xs text-[#FEFAE0] drop-shadow-sm"
         >
           Generate Short Link
         </button>
@@ -94,13 +95,15 @@ export default function Home() {
             />
             <button
               onClick={copyToClipboard}
-              className="bg-[#399918] p-1 rounded-lg ml-2 h-9 shadow-2xs text-[#FEFAE0] drop-shadow-sm"
+              className="bg-[#399918] hover:cursor-pointer p-1 rounded-lg ml-2 h-9 shadow-2xs text-[#FEFAE0] drop-shadow-sm"
             >
               {copyLink ? "Copied!" : "Copy"}
             </button>
           </div>
         </div>
       )}
+    </div>
+    <p className="text-center text-red-700">Wait for few seconds after click generate button!</p>
     </div>
   );
 }
