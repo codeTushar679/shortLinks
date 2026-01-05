@@ -25,6 +25,10 @@ Project deployed in Vercel, here's live project link:
 
 https://short-links-seven.vercel.app/
 
+Project deployed in Docker repository, here's project link:
+
+https://hub.docker.com/repository/docker/tushar950/linkshort/general
+
 
 ## Tech Stack
 
